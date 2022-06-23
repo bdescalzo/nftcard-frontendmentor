@@ -1,4 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+  display: block;
+  border-radius: 15px;
+  width: 350px;
+  height: auto;
+  text-align: center;
+  padding: 40px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.card__img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card__title {
+  text-align: left;
+}
+
+.card__paragraph {
+  font-size: 18px;
 }
