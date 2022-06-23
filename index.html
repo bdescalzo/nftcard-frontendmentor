@@ -1,56 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="card">
-      <h2 class="card__title">Equilibrium #3429</h2>
-      <p class="card__paragraph">
-        Our Equilibrium collection promotes balance and calm.
-      </p>
-      <span class="card__price">
-        <img
-          class="card__price__img"
-          src="images/icon-ethereum.svg"
-          alt="Icon of Ethereum"
-        />
-        0.041 ETH</span
-      >
-      <span class="card__time">
-        <img
-          class="card__time__img"
-          src="images/icon-clock.svg"
-          alt="Icon of clock"
-        />
-        3 days left</span
-      >
-      <img
-        class="card__creator__img"
-        src="images/image-avatar.png"
-        alt="Image of NFT creator"
-      />
-      <span class="card__credits">Creation of Jules Wyvern</span>
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="card">
+    <img class="card__img" src="images/image-equilibrium.jpg" alt="Cryptoart">
+    <h2 class="card__title">Equilibrium #3429</h2>
+    <p class="card__paragraph">
+      Our Equilibrium collection promotes balance and calm.
+    </p>
+    <div class="card__data">
+      <div class="card__price">
+        <img class="card__eth" src="images/icon-ethereum.svg" alt="Icon of Ethereum" />
+        <span class="card__ethprice">0.041 ETH</span>
+      </div>
+      <div class="card__time">
+        <img class="card__clock" src="images/icon-clock.svg" alt="Icon of clock" />
+        <span class="card__time_left">3 days left</span>
+      </div>
     </div>
 
-    <div class="attribution">
+    <div class="card__credits">
+      <img class="card__creator__img" src="images/image-avatar.png" alt="Image of NFT creator" />
+      <span class="card__creator">Creation of <span class="card__creator__name">Jules Wyvern</span></span>
+    </div>
+  </div>
+
+  <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
-  </body>
+      >. Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+</body>
+
 </html>
