@@ -2,6 +2,7 @@
 
 :root {
   --card__separation: 15px;
+  --card__text__color: hsl(215, 51%, 70%);
 }
 * {
   margin: 0;
@@ -23,9 +24,9 @@ body {
   width: 350px;
   height: auto;
   /* text-align: center; */
-  padding: 30px;
+  padding: 20px;
   background-color: hsl(216, 50%, 16%);
-  color: hsl(215, 29%, 47%);
+  color: var(--card__text__color);
 }
 
 .card__img {
@@ -43,4 +44,46 @@ body {
 .card__paragraph {
   font-size: 18px;
   margin-bottom: var(--card__separation);
+}
+
+.card__data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: var(--card__separation);
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: var(--card__separation);
+}
+
+.card__price,
+.card__time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card__eth,
+.card__clock {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.card__ethprice {
+  color: hsl(178, 100%, 50%);
+}
+.card__credits {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card__creator__img {
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card__creator__name {
+  color: white;
 }
