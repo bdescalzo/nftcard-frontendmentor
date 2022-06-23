@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+:root {
+  --card__separation: 15px;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -11,6 +14,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: hsl(217, 54%, 11%);
+  font-family: Roboto, Verdana;
 }
 
 .card {
@@ -18,22 +22,25 @@ body {
   border-radius: 15px;
   width: 350px;
   height: auto;
-  text-align: center;
-  padding: 40px;
+  /* text-align: center; */
+  padding: 30px;
   background-color: hsl(216, 50%, 16%);
+  color: hsl(215, 29%, 47%);
 }
 
 .card__img {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: var(--card__separation);
   border-radius: 10px;
 }
 
 .card__title {
   text-align: left;
   color: hsl(0, 0%, 100%);
+  margin-bottom: var(--card__separation);
 }
 
 .card__paragraph {
   font-size: 18px;
+  margin-bottom: var(--card__separation);
 }
