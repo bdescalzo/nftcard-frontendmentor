@@ -22,7 +22,7 @@ body {
 .card {
   display: block;
   border-radius: 15px;
-  width: 260px;
+  width: 300px;
   height: auto;
   /* text-align: center; */
   padding: 13px;
@@ -45,7 +45,7 @@ body {
 }
 
 .card__paragraph {
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: var(--card__separation);
 }
 
@@ -64,18 +64,17 @@ body {
   flex-direction: row;
   align-items: center;
   font-size: 0.8em;
+  font-weight: bold;
 }
 
 .card__eth,
 .card__clock {
   display: inline-block;
-  margin-right: 2px;
+  margin-right: 6px;
 }
 
 .card__ethprice {
-  margin-left: 4px;
   color: hsl(178, 100%, 50%);
-  font-weight: bold;
 }
 .card__credits {
   display: flex;
