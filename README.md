@@ -29,8 +29,6 @@ Users should be able to:
 
 ![](images/screenshot.jpg)
 
-This screenshot is a bit zoomed out... maybe I've got it too big. :(
-
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/bdescalzo/nftcard-frontendmentor)
