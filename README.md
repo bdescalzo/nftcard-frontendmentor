@@ -60,7 +60,7 @@ I want to eventually start working with full layouts... but one step at a time.
 
 - [AlexCG's course](https://www.youtube.com/watch?v=WfDqFArJnYA) - I'm currently using this resource to learn CSS.
 - The [MDN Web Docs](https://developer.mozilla.org/) have been, as always, crucial.
-
+- I took the font from [this solution](https://jazzy-swan-796ba6.netlify.app/).
 ## Author
 
 - GitHub - [Add your name here](https://www.github.com/bdescalzo/)
