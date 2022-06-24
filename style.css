@@ -45,7 +45,7 @@ body {
 }
 
 .card__paragraph {
-  font-size: 11px;
+  font-size: 14px;
   margin-bottom: var(--card__separation);
 }
 
@@ -69,17 +69,19 @@ body {
 .card__eth,
 .card__clock {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 2px;
 }
 
 .card__ethprice {
+  margin-left: 4px;
   color: hsl(178, 100%, 50%);
+  font-weight: bold;
 }
 .card__credits {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 0.7em;
+  font-size: 0.75em;
 }
 
 .card__creator__img {
