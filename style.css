@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url(https://fonts.google.com/specimen/Outfit);
+
 
 :root {
   --card__separation: 15px;
@@ -15,16 +16,16 @@ body {
   align-items: center;
   justify-content: center;
   background-color: hsl(217, 54%, 11%);
-  font-family: Roboto, Verdana;
+  font-family: Outfit, sans-serif;
 }
 
 .card {
   display: block;
   border-radius: 15px;
-  width: 350px;
+  width: 260px;
   height: auto;
   /* text-align: center; */
-  padding: 20px;
+  padding: 13px;
   background-color: hsl(216, 50%, 16%);
   color: var(--card__text__color);
   box-shadow: 0px 40px 0px 14px hsl(217, 54%, 10%), 0px 0px 0px 40px hsl(217, 80%, 7%, 0.1), 0px 40px 0px 40px hsl(217, 80%, 7%, 0.1);
@@ -38,12 +39,13 @@ body {
 
 .card__title {
   text-align: left;
+  font-size: 1em;
   color: hsl(0, 0%, 100%);
   margin-bottom: var(--card__separation);
 }
 
 .card__paragraph {
-  font-size: 18px;
+  font-size: 11px;
   margin-bottom: var(--card__separation);
 }
 
@@ -61,6 +63,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 0.8em;
 }
 
 .card__eth,
@@ -76,10 +79,11 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 0.7em;
 }
 
 .card__creator__img {
-  width: 50px;
+  width: 40px;
   border: 1px solid white;
   border-radius: 50%;
   margin-right: 10px;
